@@ -4,12 +4,6 @@
 @import 'variables';
 @import 'colores';
 
-/* Operaciones */
-
-
-
-/* Condicionales */
-
 
 *{
     margin: 0;
@@ -111,6 +105,23 @@
         }
     }
 }
+
+    /* #### SERVICIOS #### */
+
+.section{
+    .sectionArticle{
+        .list-group:hover{
+            .list-group-item:hover {
+                color: map-get($colors, colorprimario);
+                background-color: map-get($colors, colorterciario);
+                padding: 10px;
+            } 
+        }
+        .pMain {
+            text-align: justify;
+        }
+    }
+}    
 
 /* Full Responsive */
 

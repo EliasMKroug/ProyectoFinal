@@ -3,8 +3,6 @@
 /* Responsive */
 /* Animations */
 /* Colores */
-/* Operaciones */
-/* Condicionales */
 * {
   margin: 0;
   padding: 0;
@@ -116,6 +114,17 @@
 }
 
 .sectionMain-obras .sectionObras__1 .sectionObras_p {
+  text-align: justify;
+}
+
+/* #### SERVICIOS #### */
+.section .sectionArticle .list-group:hover .list-group-item:hover {
+  color: white;
+  background-color: #4a3d3d;
+  padding: 10px;
+}
+
+.section .sectionArticle .pMain {
   text-align: justify;
 }
 
